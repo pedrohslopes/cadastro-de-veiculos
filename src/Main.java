@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         Veiculo veiculo1 = new Carro("VW", "Gol", 1999, 4);
         Veiculo veiculo2 = new Carro("GM", "Opala", 1964, 2);
-        Veiculo veiculo3 = new Moto("Honda", "Cg", 2021, "Esportiva");
+        Veiculo veiculo3 = new Moto("Honda", "Cg", 2021, "OffRoad");
 
         veiculo1.acelerar();
         if (veiculo1 instanceof Carro) {
